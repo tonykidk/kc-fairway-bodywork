@@ -79,14 +79,14 @@
 >
 	<!-- Nav links -->
 	<ul
-		class="list-style-none mt-8 flex w-full flex-col text-center md:mt-0 md:grid md:items-center md:h-20 md:py-2 md:max-w-6xl md:mx-auto {gridColsClass}"
+		class="list-style-none mt-16 flex w-full flex-col text-center md:mt-0 md:grid md:items-center md:h-20 md:py-2 md:max-w-6xl md:mx-auto {gridColsClass}"
 		bind:this={navItemsElement}
 	>
 		<!-- Home button - mobile only -->
 		<li class="relative shrink-0 md:hidden">
 			<a
 				href="/"
-				class="text-primary peer inline-flex w-full justify-start rounded-none border-none bg-transparent p-4 px-5 text-2xl font-semibold uppercase text-shadow-xs"
+				class="text-primary peer mx-auto inline-flex justify-start rounded-none border-none bg-transparent p-4 px-5 text-2xl font-semibold uppercase text-shadow-xs md:text-xl md:font-normal md:py-2"
 				onclick={closeNavMenu}
 			>
 				Home
@@ -167,14 +167,14 @@
 				background-color: color-mix(in oklab, var(--color-base-100) 50%, transparent);
 			}
 
-			li:hover,
+			/* li:hover,
 			li:active,
 			li:focus {
 				background-color: var(--color-base-200);
 				box-shadow:
 					inset 0 0 5px 2px color-mix(in oklab, var(--color-primary) 100%, transparent),
 					inset 0 0 0 1px var(--color-primary);
-			}
+			} */
 		}
 	}
 </style>
