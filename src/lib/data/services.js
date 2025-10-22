@@ -56,14 +56,12 @@ export const offerings = [
 		]
 	},
 	{
-		id: 'packages',
-		serviceName: 'Packages (self-care investment)',
-		icon: 'icon-currency-dollar',
-		description: 'Invest in your health with discounted session bundles designed for ongoing care:',
-		packages: [
-			{ name: '4 × 60-minute sessions', price: 450, description: null },
-			{ name: '4 × 90-minute sessions', price: 600, description: null }
-		]
+		id: 'piriformis-treatment',
+		serviceName: 'Piriformis Syndrome Treatment',
+		icon: 'icon-building-storefront',
+		description:
+			'Piriformis Syndrome can cause deep tension in the glutes and pain that radiates down the leg, sometimes mistaken for sciatica. It’s usually the result of a tight or overworked muscle pressing on the sciatic nerve. Through focused, restorative massage, I help release tension, ease discomfort, and bring balance back to your body. If this sounds familiar, book a 60- or 90-minute session today and start your path toward relief.',
+		packages: []
 	},
 	{
 		id: 'gift-vouchers',
@@ -74,6 +72,16 @@ export const offerings = [
 		packages: []
 	},
 	{
+		id: 'packages',
+		serviceName: 'Packages (self-care investment)',
+		icon: 'icon-currency-dollar',
+		description: 'Invest in your health with discounted session bundles designed for ongoing care:',
+		packages: [
+			{ name: '4 × 60-minute sessions', price: 450, description: null },
+			{ name: '4 × 90-minute sessions', price: 600, description: null }
+		]
+	},
+	{
 		id: 'mobile-massage',
 		serviceName: 'Mobile Massage (In-Home)',
 		icon: 'icon-home-modern',
@@ -81,14 +89,6 @@ export const offerings = [
 			'Enjoy professional therapeutic massage in the comfort of your own home. I bring everything needed for a session that fits seamlessly into your routine. Travel fee may apply outside of the Kansas City metro area. Check service area.',
 		packages: []
 	},
-	{
-		id: 'studio-sessions',
-		serviceName: 'Studio Sessions',
-		icon: 'icon-building-storefront',
-		description:
-			'For those who prefer an appointment outside the home, I also offer sessions at my downtown Kansas City studio. Currently, availability is limited to Mondays, as I rent space at Legacy Massage.',
-		packages: []
-	}
 ];
 
 /** @type {Modality[]} */
@@ -194,18 +194,6 @@ export const clientPrepTips = [
 		title: 'Minimize Distractions',
 		description:
 			"Silence phones, turn off TVs, and let household members know you'll be unavailable. Creating a quiet environment enhances relaxation and treatment effectiveness."
-	},
-	{
-		id: 'pet-considerations',
-		title: 'Pet Considerations',
-		description:
-			'If you have pets, please secure them in another room during the session. While we love animals, their presence can be distracting and may interfere with treatment.'
-	},
-	{
-		id: 'room-temperature',
-		title: 'Room Temperature',
-		description:
-			"Set your thermostat to a comfortable temperature (72-75°F is ideal). You'll be under blankets during the massage, but the room should be warm enough for comfort."
 	},
 	{
 		id: 'hydration-timing',
