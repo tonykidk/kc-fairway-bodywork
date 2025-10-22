@@ -35,9 +35,9 @@ export const offerings = [
 		description:
 			'Every session is customized to your needs, whether that’s relieving chronic pain, improving posture, enhancing mobility, or supporting recovery after activity. I use a combination of whatever techniques or tools I have—neuromuscular therapy, trigger point work, cupping, heated scraper, and adhesion release—to create lasting results, not just temporary relief.',
 		packages: [
-			{ name: '30 minutes', price: 65, description: null },
-			{ name: '60 minutes', price: 125, description: null },
-			{ name: '90 minutes', price: 165, description: null }
+			{ name: '30 minutes', price: 85, description: null },
+			{ name: '60 minutes', price: 150, description: null },
+			{ name: '90 minutes', price: 200, description: null }
 		]
 	},
 	{

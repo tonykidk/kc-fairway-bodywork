@@ -40,7 +40,7 @@
 			as neuromuscular therapy, trigger point work, and adhesion release.
 		</p>
 		<p>
-			Whether you’re an athlete, managing chronic discomfort, or simply looking to move and feel better, I offer in-home sessions across the Kansas City area
+			Whether you’re an athlete, managing chronic discomfort, or simply looking to move and feel better, I offer in-home sessions across the Kansas City area.
 		</p>
 	</div>
 </section>
