@@ -51,7 +51,7 @@ const metadata = {
 	cp_url: 'https://spotlitestudios.com/',
 
 	// Page metadata
-	title: 'Sincerely, Selfcare – Mobile Massage',
+	title: 'KC Fairway Bodywork - Sports Massage Therapy',
 
 	// SEO Keywords
 	keywords: [
