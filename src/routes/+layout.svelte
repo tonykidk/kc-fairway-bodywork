@@ -35,7 +35,6 @@
 
 <style>
 	.parallax-bg {
-		background-image: url('/img/pexels-divinetechygirl-1181354.jpg');
 		background-attachment: fixed;
 		background-size: cover;
 	}
