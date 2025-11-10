@@ -35,9 +35,9 @@ export const offerings = [
 		description:
 			'Every session is customized to your needs, whether that’s relieving chronic pain, improving posture, enhancing mobility, or supporting recovery after activity. I use a combination of whatever techniques or tools I have—neuromuscular therapy, trigger point work, cupping, heated scraper, and adhesion release—to create lasting results, not just temporary relief.',
 		packages: [
-			{ name: '30 minutes', price: 85, description: null },
-			{ name: '60 minutes', price: 150, description: null },
-			{ name: '90 minutes', price: 200, description: null }
+			{ name: '30 minutes', price: 100, description: null },
+			{ name: '60 minutes', price: 175, description: null },
+			{ name: '90 minutes', price: 225, description: null }
 		]
 	},
 	{
@@ -77,8 +77,8 @@ export const offerings = [
 		icon: 'icon-currency-dollar',
 		description: 'Invest in your health with discounted session bundles designed for ongoing care:',
 		packages: [
-			{ name: '4 × 60-minute sessions', price: 500, description: null },
-			{ name: '4 × 90-minute sessions', price: 700, description: null }
+			{ name: '4 × 60-minute sessions', price: 600, description: null },
+			{ name: '4 × 90-minute sessions', price: 800, description: null }
 		]
 	},
 	{
