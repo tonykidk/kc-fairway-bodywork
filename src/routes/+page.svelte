@@ -23,9 +23,9 @@
 
 <section class="bg-base-200 flex flex-col items-center justify-center py-8 pt-12">
 	<div class="mx-auto max-w-4xl py-6 text-balance">
-		<img src="/img/logo.webp" alt="Sincerely Selfcare Logo" class="max-h-128" />
+		<img src="/img/logo.webp" alt="Sincerely Selfcare Logo" class="max-h-176" />
 	</div>
-	<div class="mx-auto max-w-4xl text-balance md:py-6">
+	<div class="mx-auto max-w-4xl text-balance md:py-6 mt-[-210px]">
 		<img
 			src="/img/snelly.jpg"
 			alt="Snelly the Massage Snail"
