@@ -34,10 +34,7 @@
 	</div>
 	<div class="mx-auto max-w-2xl py-6 text-balance md:text-lg">
 		<p class="pb-4">
-			Welcome to Sincerely, Selfcare. I specialize in therapeutic massage designed to support
-			recovery, improve mobility, and relieve muscle tension. My focus is on helping clients with
-			postural correction, injury prevention, and pain management through targeted techniques such
-			as neuromuscular therapy, trigger point work, and adhesion release.
+			Welcome to KC Fairway Bodywork. My name is Anthony Snell, licensed massage therapist, and owner of KC Fairway Bodywork. I specialize in golfers helping increase mobility, improve game and play more often pain free. yada yada...
 		</p>
 		<p>
 			Whether you’re an athlete, managing chronic discomfort, or simply looking to move and feel better, I offer in-home sessions across the Kansas City area.
