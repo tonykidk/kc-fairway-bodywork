@@ -20,29 +20,29 @@ export const aboutData = {
 	title: 'About Sincerely,Selfcare',
 	aboutText: 'My name is Anthony Snell, and I created Sincerely, Selfcare with one mission: to help people feel better in their bodies. I specialize in therapeutic massage with a focus on recovery, pain relief, and improving mobility. From athletes to anyone managing tension, injuries, or chronic discomfort, I use techniques like neuromuscular therapy, trigger point work, cupping, heated scraper, and adhesion release to create meaningful, lasting results. Massage isn’t just a service to me—it’s a way to support your health, restore balance, and help you get back to doing what you love.',
 	mission:
-		'To help people feel better in their bodies through massage that focuses on recovery, mobility, and lasting results.',
+		'To provide quality bodywork that creates real improvement, encouraging you to be your best.',
 	vision:
-		'To be a leader in the massage industry by providing exceptional service and results.',
+		'A community where golfers are inspired, supported, and equipped to move freely and play their best through high-quality, performance-focused bodywork.',
 	values: [
 		{
-			title: 'Client-Centered Care',
+			title: 'Care that Drives Improvement',
 			description:
-				'Every session is tailored to your unique needs, with the goal of helping you feel real, lasting improvement.'
+				'Providing focused, intentional bodywork that creates real change.'
 		},
 		{
-			title: 'Therapeutic Excellence',
+			title: 'Quality You Can Feel',
 			description:
-				'I use advanced techniques—like neuromuscular therapy, trigger point work, cupping, and adhesion release—to create results that go beyond temporary relief.'
+				'Delivering the level of care and precision golfers deserve.'
 		},
 		{
-			title: 'Integrity & Professionalism',
+			title: 'Encouragement that Elevates',
 			description:
-				'I value respect, trust, and clear communication, ensuring every client feels safe and supported.'
+				'Building confidence through every step of recovery both on and off the course.'
 		},
 		{
-			title: 'Commitment to Growth',
+			title: 'The best web guy ever',
 			description:
-				'I continually learn and refine my skills to bring the highest quality of therapeutic massage to my clients.'
+				'Fricken Slim Nate. GANG GANG.     Sorry though buddy, you will have to delete this box'
 		}
 	],
 	team: [
