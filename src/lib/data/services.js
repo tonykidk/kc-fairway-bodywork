@@ -30,10 +30,10 @@
 export const offerings = [
 	{
 		id: 'therapeutic-massage',
-		serviceName: 'Therapeutic Massage',
+		serviceName: 'Performance Bodywork',
 		icon: 'icon-heart',
 		description:
-			'Every session is customized to your needs, whether that’s relieving chronic pain, improving posture, enhancing mobility, or supporting recovery after activity. I use a combination of whatever techniques or tools I have—neuromuscular therapy, trigger point work, cupping, heated scraper, and adhesion release—to create lasting results, not just temporary relief.',
+			'Bodywork designed to improve how you move both on and off the course. Using advanced techniques such as Structural Integration, Neuromuscular Therapy, and adhesion release, this treatment reduces tension and supports long-term mobility.',
 		packages: [
 			{ name: '30 minutes', price: 100, description: null },
 			{ name: '60 minutes', price: 175, description: null },
@@ -57,10 +57,10 @@ export const offerings = [
 	},
 	{
 		id: 'piriformis-treatment',
-		serviceName: 'Piriformis Syndrome Treatment',
+		serviceName: 'Structural Integration',
 		icon: 'icon-building-storefront',
 		description:
-			'Piriformis Syndrome can cause deep tension in the glutes and pain that radiates down the leg, sometimes mistaken for sciatica. It’s usually the result of a tight or overworked muscle pressing on the sciatic nerve. Through focused, restorative massage, I help release tension, ease discomfort, and bring balance back to your body. If this sounds familiar, book a 60- or 90-minute session today and start your path toward relief.',
+			'Structural Integration is a bodywork method that realigns the body for better posture, easier movement, and less pain. It works with the fascia--the conective tissue around your muscles--to release tension, improve mobility, and rebalance your whole system.',
 		packages: []
 	},
 	{
