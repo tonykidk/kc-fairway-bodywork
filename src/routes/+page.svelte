@@ -44,17 +44,6 @@
 
 <div class="bg-primary mx-auto h-[2px] w-[80vw]"></div>
 
-<section class="bg-base-200 flex flex-col items-center justify-center py-8">
-	<div class="mx-auto max-w-4xl text-balance">
-		<ul class="list-inside list-disc py-6 text-left md:text-xl [&>li]:pb-2">
-			<li>Mobile massage therapy—no travel required</li>
-			<li>All equipment provided: massage table, linens, oils, music</li>
-			<li>Specializing in deep tissue, neuromuscular, sports, and Swedish massage</li>
-			<li>Easy online booking</li>
-			<li>Serving Kansas City, Overland Park, Olathe, Lee’s Summit, and beyond</li>
-		</ul>
-	</div>
-</section>
 
 <div class="bg-primary mx-auto h-[2px] w-[80vw]"></div>
 
