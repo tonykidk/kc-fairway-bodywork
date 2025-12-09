@@ -15,7 +15,7 @@
 
 <section class="bg-base-200 flex flex-col items-center justify-center py-8 pt-12">
 	<div class="mx-auto max-w-4xl py-6 text-balance">
-		<img src="/img/logo.webp" alt="Sincerely Selfcare Logo" class="max-h-176" />
+		<img src="/img/logo.webp" alt="KC Fairway Bodywork Logo" class="max-h-176" />
 	</div>
 	<div class="mx-auto max-w-4xl text-balance md:py-6 mt-[-210px]">
 		<img
@@ -78,7 +78,7 @@
 				<div class="card-body">
 					<div class="flex items-center gap-3 pb-4">
 						<span class="icon icon-md icon-custom {offering.icon}"></span>
-						<h3 class="card-title home-service-name">{offering.serviceName}</h3>
+						<h3 class="card-title text-secondary">{offering.serviceName}</h3>
 					</div>
 					<p class="opacity-80">{offering.description}</p>
 					{#if offering.packages && offering.packages.length}
@@ -124,6 +124,7 @@
 			</div>
 		{/each}
 	</div>
+<<<<<<< HEAD
 </section>
 
 <!-- Blog Posts-->
@@ -143,3 +144,6 @@
 		background-color: oklch(0.63 0.097 91);
 	}
 </style>
+=======
+</section>
+>>>>>>> 2993662 (Don't need to define a new class 'home-service-name', just use the theme class 'text-secondary' that has the same value. This will help you if you ever change the theme colors in the future, so that you will not have to hunt down this one place where the color didn't actually change)
