@@ -36,7 +36,7 @@
 				<div class="card-body">
 					<div class="flex items-center gap-3 mb-2">
 						<span class="icon icon-md icon-custom icon-light-bulb"></span>
-						<h2 class="text-secondary text-xl font-semibold">Mission</h2>
+						<h2 class="text-secondary text-2xl font-semibold">Mission</h2>
 					</div>
 					<p class="text-lg">{aboutData.mission}</p>
 				</div>
@@ -47,7 +47,7 @@
 				<div class="card-body">
 					<div class="flex items-center gap-3 mb-2">
 						<span class="icon icon-md icon-custom icon-eye"></span>
-						<h2 class="text-secondary text-xl font-semibold">Vision</h2>
+						<h2 class="text-secondary text-2xl font-semibold">Vision</h2>
 					</div>
 					<p class="text-lg">{aboutData.vision}</p>
 				</div>
@@ -64,9 +64,9 @@
 			<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
 				{#each aboutData.values as value}
 					<div class="card about-page-box bg-base-100 shadow-xl">
-						<div class="card-body">
-							<h3 class="card-title text-secondary text-lg">{value.title}</h3>
-							<p class="text-sm opacity-80">{value.description}</p>
+						<div class="card-body text-center">
+							<h3 class="card-title text-secondary text-xl justify-center">{value.title}</h3>
+							<p class="text-lg opacity-80">{value.description}</p>
 						</div>
 					</div>
 				{/each}
