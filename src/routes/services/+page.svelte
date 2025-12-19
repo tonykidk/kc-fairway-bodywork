@@ -145,12 +145,12 @@
 			<div class="card-body">
 				<div class="flex items-center gap-3 mb-4 justify-center">
 					<span class="icon icon-lg icon-custom icon-home-modern"></span>
-					<h3 class="card-title text-primary text-2xl">Mobile Setup</h3>
+					<h3 class="card-title text-secondary text-2xl">Mobile Setup</h3>
 				</div>
 				<div class="space-y-4">
 					{#each mobileSetupSteps as step (step.id)}
 						<div>
-							<h4 class="font-semibold text-lg">{step.title}</h4>
+							<h4 class="font-semibold text-lg text-secondary">{step.title}</h4>
 							<p class="opacity-80">
 								{step.description}
 							</p>
@@ -165,12 +165,12 @@
 			<div class="card-body">
 				<div class="flex items-center gap-3 mb-4 justify-center">
 					<span class="icon icon-lg icon-custom icon-light-bulb"></span>
-					<h3 class="card-title text-primary text-2xl">Client Prep Tips</h3>
+					<h3 class="card-title text-secondary text-2xl">Client Prep Tips</h3>
 				</div>
 				<div class="space-y-4">
 					{#each clientPrepTips as tip (tip.id)}
 						<div>
-							<h4 class="font-semibold text-lg">{tip.title}</h4>
+							<h4 class="font-semibold text-lg text-secondary">{tip.title}</h4>
 							<p class="opacity-80">
 								{tip.description}
 							</p>
@@ -232,7 +232,7 @@
 
 				<div class="mt-8 text-center">
 					<p class="text-sm opacity-70">
-						Don't see your city? Contuct me at <a
+						Don't see your city? Contact me at <a
 							href="mailto:anthony@sincerelyselfcare.life"
 							class="text-primary font-semibold hover:underline">anthony@sincerelyselfcare.life</a
 						> to check availability in your area.
