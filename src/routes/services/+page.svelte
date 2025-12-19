@@ -23,12 +23,14 @@
 	>
 		Massage Therapy Services
 	</h1>
-	<p class="mx-auto mb-12 max-w-3xl text-center text-lg md:text-xl">
+	<p class="mx-auto max-w-3xl text-center text-lg md:text-xl">
 		Personalized performance bodywork designed to improve mobility, reduce tension, and support better movement on and off the course. Every session is tailored to your swing, your body, and your goals so you can move better, feel better, and play your best.
 	</p>
 </section>
 
-<div class="section-divider mx-auto h-[2px] w-[80vw]"></div>
+<button class="btn btn-secondary btn-xl w-full rounded-full px-8 py-4 text-xl font-semibold shadow-lg md:w-lg mx-auto">
+	Book Now
+</button>
 
 <!-- Service Offerings -->
 <section class="bg-base-200 flex flex-col items-center justify-center py-12 px-4">
@@ -91,7 +93,7 @@
 	</div>
 </section>
 
-<div class="bg-primary mx-auto h-[2px] w-[80vw]"></div>
+<div class="bg-secondary mx-auto h-[2px] w-[80vw]"></div>
 
 <!-- Modalities -->
 <section class="bg-base-200 flex flex-col items-center justify-center py-12 px-4">
@@ -122,7 +124,7 @@
 	</div>
 </section>
 
-<div class="bg-primary mx-auto h-[2px] w-[80vw]"></div>
+<div class="bg-secondary mx-auto h-[2px] w-[80vw]"></div>
 
 <!-- How It Works -->
 <section class="bg-base-200 flex flex-col items-center justify-center py-12 px-4">
@@ -180,7 +182,7 @@
 	</div>
 </section>
 
-<div class="bg-primary mx-auto h-[2px] w-[80vw]"></div>
+<div class="bg-secondary mx-auto h-[2px] w-[80vw]"></div>
 
 <!-- Service Areas -->
 <section class="bg-base-200 flex flex-col items-center justify-center py-12 px-4">
