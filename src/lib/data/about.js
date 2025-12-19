@@ -41,11 +41,6 @@ export const aboutData = {
 			title: 'Encouragement that Elevates',
 			description:
 				'Building confidence through every step of recovery both on and off the course.'
-		},
-		{
-			title: 'The best web guy ever',
-			description:
-				'Fricken Slim Nate. GANG GANG.     Sorry though buddy, you will have to delete this box'
 		}
 	],
 	team: [

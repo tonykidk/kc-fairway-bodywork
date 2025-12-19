@@ -93,7 +93,7 @@
 			</a>
 			<!-- Animated underline effect -->
 			<span
-				class="bg-primary absolute bottom-[20%] left-1/2 hidden h-[2px] w-0 transition-all duration-300 ease-in-out peer-hover:left-1/8 peer-hover:w-[75%]"
+				class="bg-secondary absolute bottom-[20%] left-1/2 hidden h-[2px] w-0 transition-all duration-300 ease-in-out peer-hover:left-1/8 peer-hover:w-[75%]"
 			></span>
 		</li>
 
@@ -113,7 +113,7 @@
 			{/if}
 			<li class:featured class="relative shrink-0 md:mt-0 md:mb-0 md:flex md:items-center">
 				<a
-					class="nav-link peer mx-auto inline-flex justify-start rounded-none border-none bg-transparent p-4 px-5 text-2xl font-semibold uppercase md:text-xl md:font-normal md:py-2"
+					class="text-secondary peer mx-auto inline-flex justify-start rounded-none border-none bg-transparent p-4 px-5 text-2xl font-semibold uppercase md:text-xl md:font-normal md:py-2"
 					onclick={closeNavMenu}
 					{href}
 				>
@@ -121,7 +121,7 @@
 				</a>
 				<!-- Animated underline effect -->
 				<span
-					class="bg-primary absolute bottom-[10%] left-1/2 hidden h-[2px] w-0 transition-all duration-300 ease-in-out peer-hover:left-[25%] peer-hover:w-[50%] md:absolute md:block"
+					class="bg-secondary absolute bottom-[10%] left-1/2 hidden h-[2px] w-0 transition-all duration-300 ease-in-out peer-hover:left-[25%] peer-hover:w-[50%] md:absolute md:block"
 				></span>
 			</li>
 		{/each}
@@ -149,10 +149,6 @@
 		);
 		backdrop-filter: blur(10px);
 		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-	}
-
-	.nav-link {
-		color: oklch(0.63 0.097 91);
 	}
 
 	@media screen and (max-width: 767px) {

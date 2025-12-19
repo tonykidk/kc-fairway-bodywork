@@ -23,12 +23,14 @@
 	>
 		Massage Therapy Services
 	</h1>
-	<p class="mx-auto mb-12 max-w-3xl text-center text-lg md:text-xl">
+	<p class="mx-auto max-w-3xl text-center text-lg md:text-xl">
 		Personalized performance bodywork designed to improve mobility, reduce tension, and support better movement on and off the course. Every session is tailored to your swing, your body, and your goals so you can move better, feel better, and play your best.
 	</p>
 </section>
 
-<div class="section-divider mx-auto h-[2px] w-[80vw]"></div>
+<button class="btn btn-secondary btn-xl w-full rounded-full px-8 py-4 text-xl font-semibold shadow-lg md:w-lg mx-auto">
+	Book Now
+</button>
 
 <!-- Service Offerings -->
 <section class="bg-base-200 flex flex-col items-center justify-center py-12 px-4">
@@ -54,7 +56,7 @@
 								{#each offering.packages as pkg}
 									<li class="pb-1 flex items-center gap-2">
 										<span class="icon icon-xs icon-custom icon-clock"></span>
-										<span class="font-medium text-lg text-secondary {(pkg.name === '30 minutes' || pkg.name === '60 minutes' || pkg.name === '90 minutes') ? 'text-primary' : ''}">{pkg.name}</span> – <span
+										<span class="font-medium text-lg">{pkg.name}</span> – <span
 											class="font-bold text-lg">{formatPrice(pkg.price)}</span
 										>
 									</li>
@@ -77,7 +79,7 @@
 								{#each offering.packages as pkg}
 									<li class="pb-1 flex items-center gap-2">
 										<span class="icon icon-xs icon-custom icon-clock"></span>
-										<span class="font-medium text-lg text-secondary {(pkg.name === '4 × 60-minute sessions' || pkg.name === '4 × 90-minute sessions') ? 'text-primary' : ''}">{pkg.name}</span> – <span
+										<span class="font-medium text-lg">{pkg.name}</span> – <span
 											class="font-bold text-lg">{formatPrice(pkg.price)}</span
 										>
 									</li>
@@ -91,7 +93,7 @@
 	</div>
 </section>
 
-<div class="bg-primary mx-auto h-[2px] w-[80vw]"></div>
+<div class="bg-secondary mx-auto h-[2px] w-[80vw]"></div>
 
 <!-- Modalities -->
 <section class="bg-base-200 flex flex-col items-center justify-center py-12 px-4">
@@ -122,7 +124,7 @@
 	</div>
 </section>
 
-<div class="bg-primary mx-auto h-[2px] w-[80vw]"></div>
+<div class="bg-secondary mx-auto h-[2px] w-[80vw]"></div>
 
 <!-- How It Works -->
 <section class="bg-base-200 flex flex-col items-center justify-center py-12 px-4">
@@ -143,12 +145,12 @@
 			<div class="card-body">
 				<div class="flex items-center gap-3 mb-4 justify-center">
 					<span class="icon icon-lg icon-custom icon-home-modern"></span>
-					<h3 class="card-title text-primary text-2xl">Mobile Setup</h3>
+					<h3 class="card-title text-secondary text-2xl">Mobile Setup</h3>
 				</div>
 				<div class="space-y-4">
 					{#each mobileSetupSteps as step (step.id)}
 						<div>
-							<h4 class="font-semibold text-lg">{step.title}</h4>
+							<h4 class="font-semibold text-lg text-secondary">{step.title}</h4>
 							<p class="opacity-80">
 								{step.description}
 							</p>
@@ -163,12 +165,12 @@
 			<div class="card-body">
 				<div class="flex items-center gap-3 mb-4 justify-center">
 					<span class="icon icon-lg icon-custom icon-light-bulb"></span>
-					<h3 class="card-title text-primary text-2xl">Client Prep Tips</h3>
+					<h3 class="card-title text-secondary text-2xl">Client Prep Tips</h3>
 				</div>
 				<div class="space-y-4">
 					{#each clientPrepTips as tip (tip.id)}
 						<div>
-							<h4 class="font-semibold text-lg">{tip.title}</h4>
+							<h4 class="font-semibold text-lg text-secondary">{tip.title}</h4>
 							<p class="opacity-80">
 								{tip.description}
 							</p>
@@ -180,7 +182,7 @@
 	</div>
 </section>
 
-<div class="bg-primary mx-auto h-[2px] w-[80vw]"></div>
+<div class="bg-secondary mx-auto h-[2px] w-[80vw]"></div>
 
 <!-- Service Areas -->
 <section class="bg-base-200 flex flex-col items-center justify-center py-12 px-4">
@@ -230,7 +232,7 @@
 
 				<div class="mt-8 text-center">
 					<p class="text-sm opacity-70">
-						Don't see your city? Contuct me at <a
+						Don't see your city? Contact me at <a
 							href="mailto:anthony@sincerelyselfcare.life"
 							class="text-primary font-semibold hover:underline">anthony@sincerelyselfcare.life</a
 						> to check availability in your area.
