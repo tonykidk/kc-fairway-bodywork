@@ -13,9 +13,9 @@
 
 <section class="bg-base-200 flex flex-col items-center justify-center py-8 pt-12">
 	<div class="mx-auto max-w-4xl py-6 text-balance">
-		<img src="/img/logo.webp" alt="KC Fairway Bodywork Logo" class="max-h-176" />
+		<img src="/img/logo.webp" alt="KC Fairway Bodywork Logo" />
 	</div>
-	<div class="mx-auto max-w-4xl text-balance md:py-6 mt-[-210px]">
+	<div class="mx-auto max-w-4xl text-balance mt-[-50px]">
 		<img
 			src="/img/snelly.jpg"
 			alt="Snelly the Massage Snail"
@@ -31,12 +31,13 @@
 		</p>
 	</div>
 </section>
-<div class="bg-primary mx-auto h-[2px] w-[80vw]"></div>
+
+<div class="bg-secondary mx-auto h-[2px] w-[80vw]"></div>
 
 <section class="bg-base-200 flex flex-col items-center justify-center py-12">
 	<div class="mx-auto max-w-4xl py-6 text-balance">
 		<h2
-			class="home-page-header text-3xl font-bold uppercase md:text-4xl"
+			class="text-secondary text-3xl font-bold uppercase md:text-4xl"
 		>
 		Elevate Your Performance
 		</h2>
@@ -54,14 +55,14 @@
 	</div>
 </section>
 
-<div class="section-divider mx-auto h-[2px] w-[80vw]"></div>
+<div class="bg-secondary mx-auto h-[2px] w-[80vw]"></div>
 
 <!-- Services -->
 
 <section class="bg-base-200 flex flex-col items-center justify-center py-12">
 	<div class="mx-auto max-w-4xl py-6 text-balance">
 		<h2
-			class="home-page-header text-3xl font-bold uppercase md:text-4xl"
+			class="text-secondary text-3xl font-bold uppercase md:text-4xl"
 		>
 			Services
 		</h2>
