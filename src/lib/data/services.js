@@ -35,7 +35,7 @@ export const offerings = [
 		description:
 			'Bodywork designed to improve how you move both on and off the course. Using advanced techniques such as Structural Integration, Neuromuscular Therapy, and adhesion release, this treatment reduces tension and supports long-term mobility.',
 		packages: [
-			{ name: '30 minutes', price: 100, description: null },
+			{ name: '30 minutes', price: 90, description: null },
 			{ name: '60 minutes', price: 175, description: null },
 			{ name: '90 minutes', price: 225, description: null }
 		]
@@ -81,8 +81,8 @@ export const offerings = [
 		description:
 			'Enjoy professional therapeutic bodywork in the comfort of your own home. I bring everything needed for a session that fits seamlessly into your routine.',
 		packages: [
-			{ name: '60 minutes', price: 200, description: null },
-			{ name: '90 minutes', price: 250, description: null }
+			{ name: '60 minutes', price: 250, description: null },
+			{ name: '90 minutes', price: 300, description: null }
 		]
 	},
 ];
